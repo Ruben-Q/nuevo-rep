@@ -1,0 +1,47 @@
+/* @importurl (Tipo de letra a eleccion) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "open Sans", sans-serif;
+}
+
+:root {
+    --color1: red; // Resp de la clase = background-color: var(--color1);
+}
+
+
+
+
+
+/*
+.padre {
+    width: 500px;
+    height: 500px;
+    border: 1px dashed red;
+    font-size: 0;
+}
+
+.hijo {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.hijo1 {
+background-color: aqua;
+}
+
+.hijo2 {
+background-color: blueviolet;
+}
+
+.hijo1,
+.hijo2 {
+    border-top: 10px solid salmon;
+    border-bottom: 10px solid salmon;
+    width: calc(250px - 20px);
+    height: calc(250px - 40px);
+    
+}
